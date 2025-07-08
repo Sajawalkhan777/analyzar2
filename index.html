@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,7 +47,13 @@
 </head>
 <body>
   <h1>Aviator Predictor</h1>
-  <p>Platform: 1xBet (Live Round Checker)</p>  <div id="rounds"></div>  <div id="prediction">Loading prediction...</div>  <script>
+  <p>Platform: 1xBet (Live Round Checker)</p>
+
+  <div id="rounds"></div>
+
+  <div id="prediction">Loading prediction...</div>
+
+  <script>
     // Demo round data (replace with live scraping later)
     let roundData = [1.2, 1.7, 1.0, 2.3, 2.8, 1.1, 1.3, 3.5, 2.0, 1.0];
 
@@ -79,7 +86,6 @@
 
     updateUI();
     predict();
-
-    // Later: Replace roundData with values pulled from 1xBet DOM using extension/bookmarklet
-  </script></body>
+  </script>
+</body>
 </html>
